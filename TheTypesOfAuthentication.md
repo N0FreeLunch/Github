@@ -2,6 +2,7 @@
 
 ## 명령줄 인증
 ### HTTPS 인증
+- Reference : https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/about-authentication-to-github#https
 - 흔히 `git clone https://레포지토리주소` 방식으로 사용할 경우 쓰는 것이다. 
 - 방화벽이나 프록시에 연결된 인증이라도 HTTPS 방식을 통해 GitHub의 모든 리포지토리를 읽기, 쓰기 작업이 가능하다는 장점이 있다.
 - HTTPS 인증의 경우 깃허브 ID/비밀번호를 입력하는 방식의 인증을 하고 있는데, 깃허브에서 비밀번호 인증을 2020년 11월 13일부터 중단하였다.
